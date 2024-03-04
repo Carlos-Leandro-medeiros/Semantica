@@ -1,5 +1,32 @@
-body {
-    width: 80vw; /* 80% da viewport width (janela de visão) */
-    margin: auto; /* define as margens automáticas (mesmo
-    valor para ambos os "lados") */
+body{
+  width: 88vw; /*80% da viewport width (Janela de visão)*/
+  margin: auto;
 }
+
+table {
+    width: 100%;
+  }
+  
+  td th {
+    width: 16%;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  table,
+  th,
+  td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+  /* seletos de ID*/
+  #artigos{
+    background-color: aqua;
+    display: flex;/* Exibição como caixa flexivel */
+  }
+  #artigo{
+    background-color: azure;
+  }
+  #minhaCarreira{
+    background-color: blue;
+  }
